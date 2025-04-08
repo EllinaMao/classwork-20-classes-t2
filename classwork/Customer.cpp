@@ -55,17 +55,17 @@ void Customer::SetPhone(const char* phone_b)
     strcpy_s(phone, size, phone_b);
 }
 
-char* Customer::GetName() const
+const char* Customer::GetName() const
 {
     return name;
 }
 
-char* Customer::GetEmail() const
+const char* Customer::GetEmail() const
 {
     return email;
 }
 
-char* Customer::GetPhone() const
+const char* Customer::GetPhone() const
 {
     return phone;
 }
