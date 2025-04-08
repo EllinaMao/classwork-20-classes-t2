@@ -15,16 +15,16 @@ int main()
     const int size = 3;
 
     Customer cust_st[size] = {
-        Customer("Alice", "example@gmail.com", "+3800449477"),
-        Customer("Alana", "example@gmail.com", "+3800449477"),
-        Customer("Oleksei", "example@gmail.com", "+3800449477")
-    };
+           Customer("Alice", "example@gmail.com", "+3800442377"),
+           Customer("Alana", "example@gmail.com", "+38004494442"),
+           Customer("Oleksei", "example@gmail.com", "+38004412345")
+       };
 
-    Customer* cust_din = new Customer[size]{
-        Customer("Tatiana", "example@gmail.com", "+3800449477"),
-        Customer("Natasha", "example@gmail.com", "+3800449477"),
-        Customer("Dima", "example@gmail.com", "+3800449477")
-    };
+       Customer* cust_din = new Customer[size]{
+           Customer("Tatiana", "example@gmail.com", "+38004467890"),
+           Customer("Natasha", "example@gmail.com", "+38004454321"),
+           Customer("Dima", "example@gmail.com", "+38004498765")
+       };
 
 
     cout << "Static array of customers:" << endl;
